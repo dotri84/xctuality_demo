@@ -1,0 +1,48 @@
+PODS:
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0)
+  - Cosmos (23.0.0)
+  - FittedSheets (2.4.2)
+  - GoogleSignIn (6.1.0):
+    - AppAuth (~> 1.4)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GTMAppAuth (1.2.2):
+    - AppAuth/Core (~> 1.4)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - GTMSessionFetcher/Core (1.7.0)
+  - SDWebImage (5.12.3):
+    - SDWebImage/Core (= 5.12.3)
+  - SDWebImage/Core (5.12.3)
+
+DEPENDENCIES:
+  - Cosmos (~> 23.0)
+  - FittedSheets
+  - GoogleSignIn
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - AppAuth
+    - Cosmos
+    - FittedSheets
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  FittedSheets: 661408776eb4ff514a31da75b3600bd7222b2b3d
+  GoogleSignIn: c90b5bec45e780f54c6a8e1e3c182a86e3dda69d
+  GTMAppAuth: ad5c2b70b9a8689e1a04033c9369c4915bfcbe89
+  GTMSessionFetcher: 43748f93435c2aa068b1cbe39655aaf600652e91
+  SDWebImage: 53179a2dba77246efa8a9b85f5c5b21f8f43e38f
+
+PODFILE CHECKSUM: 7253b7000be82611a6e9422e86b4424682d98f0e
+
+COCOAPODS: 1.11.2

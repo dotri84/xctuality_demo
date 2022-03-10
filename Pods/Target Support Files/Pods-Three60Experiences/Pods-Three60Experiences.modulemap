@@ -1,0 +1,6 @@
+framework module Pods_Three60Experiences {
+  umbrella header "Pods-Three60Experiences-umbrella.h"
+
+  export *
+  module * { export * }
+}

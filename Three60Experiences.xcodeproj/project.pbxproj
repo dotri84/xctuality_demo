@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B2C5A7527C0A8B500435347 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2C5A7427C0A8B500435347 /* AppDelegate.swift */; };
+		4B2C5A7727C0A8B500435347 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2C5A7627C0A8B500435347 /* SceneDelegate.swift */; };
+		4B2C5A7927C0A8B500435347 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2C5A7827C0A8B500435347 /* TimelineViewController.swift */; };
+		4B2C5A7C27C0A8B500435347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2C5A7A27C0A8B500435347 /* Main.storyboard */; };
+		4B2C5A7E27C0A8B800435347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B2C5A7D27C0A8B800435347 /* Assets.xcassets */; };
+		4B2C5A8127C0A8B800435347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2C5A7F27C0A8B800435347 /* LaunchScreen.storyboard */; };
+		4B2C5A8B27C0D9FC00435347 /* MosaicLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2C5A8927C0D9FC00435347 /* MosaicLayout.swift */; };
+		4B2C5A9027C0DA0B00435347 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2C5A8E27C0DA0B00435347 /* PersonCell.swift */; };
+		4B2C5A9127C0DA0B00435347 /* MosaicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2C5A8F27C0DA0B00435347 /* MosaicCell.swift */; };
+		4B2C5A9427C0E25700435347 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2C5A9327C0E25700435347 /* Person.swift */; };
+		4B2C5A9727C0E26400435347 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2C5A9627C0E26400435347 /* AvatarView.swift */; };
+		4B2C5A9A27C0E47900435347 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2C5A9927C0E47900435347 /* Utilities.swift */; };
+		4B2C5A9C27C13C2200435347 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2C5A9B27C13C2200435347 /* DetailViewController.swift */; };
+		4B2C5A9E27C15BA300435347 /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2C5A9D27C15BA300435347 /* Experience.swift */; };
+		4B2C5AA027C15BDE00435347 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2C5A9F27C15BDE00435347 /* DataManager.swift */; };
+		4B2C5AA627C253E000435347 /* KeychainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2C5AA527C253E000435347 /* KeychainItem.swift */; };
+		4B3570F327D33C49006C0FC9 /* UserDefaultsCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3570F227D33C49006C0FC9 /* UserDefaultsCache.swift */; };
+		4B3570F627D3D958006C0FC9 /* AvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3570F527D3D958006C0FC9 /* AvatarImageView.swift */; };
+		4B3570F827D4AF15006C0FC9 /* RateCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3570F727D4AF15006C0FC9 /* RateCommentViewController.swift */; };
+		4B801A7527CE7908000DC698 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B801A7427CE7908000DC698 /* LoginViewController.swift */; };
+		4B801A7727CE8814000DC698 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B801A7627CE8814000DC698 /* Common.swift */; };
+		5644F1D24A1CBCF39CC10E21 /* Pods_Three60Experiences.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBDD7081B44852C6063BE26 /* Pods_Three60Experiences.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CBDD7081B44852C6063BE26 /* Pods_Three60Experiences.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Three60Experiences.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B2C5A7127C0A8B500435347 /* Three60Experiences.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Three60Experiences.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B2C5A7427C0A8B500435347 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B2C5A7627C0A8B500435347 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4B2C5A7827C0A8B500435347 /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		4B2C5A7B27C0A8B500435347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B2C5A7D27C0A8B800435347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B2C5A8027C0A8B800435347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B2C5A8227C0A8B800435347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B2C5A8927C0D9FC00435347 /* MosaicLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MosaicLayout.swift; sourceTree = "<group>"; };
+		4B2C5A8E27C0DA0B00435347 /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		4B2C5A8F27C0DA0B00435347 /* MosaicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MosaicCell.swift; sourceTree = "<group>"; };
+		4B2C5A9327C0E25700435347 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		4B2C5A9627C0E26400435347 /* AvatarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		4B2C5A9927C0E47900435347 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		4B2C5A9B27C13C2200435347 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4B2C5A9D27C15BA300435347 /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
+		4B2C5A9F27C15BDE00435347 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		4B2C5AA527C253E000435347 /* KeychainItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItem.swift; sourceTree = "<group>"; };
+		4B3570F227D33C49006C0FC9 /* UserDefaultsCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsCache.swift; sourceTree = "<group>"; };
+		4B3570F527D3D958006C0FC9 /* AvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarImageView.swift; sourceTree = "<group>"; };
+		4B3570F727D4AF15006C0FC9 /* RateCommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateCommentViewController.swift; sourceTree = "<group>"; };
+		4B801A7427CE7908000DC698 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4B801A7627CE8814000DC698 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		4BA47EE527C68294004326A4 /* Three60Experiences.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Three60Experiences.entitlements; sourceTree = "<group>"; };
+		91985ADA05AAF4B50F5446F3 /* Pods-Three60Experiences.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Three60Experiences.release.xcconfig"; path = "Target Support Files/Pods-Three60Experiences/Pods-Three60Experiences.release.xcconfig"; sourceTree = "<group>"; };
+		C26EA604A03352294210F7DF /* Pods-Three60Experiences.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Three60Experiences.debug.xcconfig"; path = "Target Support Files/Pods-Three60Experiences/Pods-Three60Experiences.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B2C5A6E27C0A8B500435347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5644F1D24A1CBCF39CC10E21 /* Pods_Three60Experiences.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22755882A27D631642641149 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CBDD7081B44852C6063BE26 /* Pods_Three60Experiences.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B2C5A6827C0A8B500435347 = {
+			isa = PBXGroup;
+			children = (
+				4B2C5A7327C0A8B500435347 /* Three60Experiences */,
+				4B2C5A7227C0A8B500435347 /* Products */,
+				F386C9682E2668D293D0EC37 /* Pods */,
+				22755882A27D631642641149 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B2C5A7227C0A8B500435347 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B2C5A7127C0A8B500435347 /* Three60Experiences.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B2C5A7327C0A8B500435347 /* Three60Experiences */ = {
+			isa = PBXGroup;
+			children = (
+				4BA47EE527C68294004326A4 /* Three60Experiences.entitlements */,
+				4B2C5A9827C0E47900435347 /* Utilities */,
+				4B2C5A9527C0E26400435347 /* Controls */,
+				4B2C5A9227C0E25700435347 /* Model */,
+				4B2C5A8D27C0DA0B00435347 /* Cells */,
+				4B2C5A8827C0D9FC00435347 /* Layouts */,
+				4B2C5A7427C0A8B500435347 /* AppDelegate.swift */,
+				4B2C5A7627C0A8B500435347 /* SceneDelegate.swift */,
+				4B2C5A7827C0A8B500435347 /* TimelineViewController.swift */,
+				4B2C5A7A27C0A8B500435347 /* Main.storyboard */,
+				4B2C5A7D27C0A8B800435347 /* Assets.xcassets */,
+				4B2C5A7F27C0A8B800435347 /* LaunchScreen.storyboard */,
+				4B2C5A8227C0A8B800435347 /* Info.plist */,
+				4B2C5A9B27C13C2200435347 /* DetailViewController.swift */,
+				4B2C5A9F27C15BDE00435347 /* DataManager.swift */,
+				4B801A7427CE7908000DC698 /* LoginViewController.swift */,
+				4B801A7627CE8814000DC698 /* Common.swift */,
+				4B3570F427D33C4E006C0FC9 /* Custom */,
+				4B3570F527D3D958006C0FC9 /* AvatarImageView.swift */,
+				4B3570F727D4AF15006C0FC9 /* RateCommentViewController.swift */,
+			);
+			path = Three60Experiences;
+			sourceTree = "<group>";
+		};
+		4B2C5A8827C0D9FC00435347 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				4B2C5A8927C0D9FC00435347 /* MosaicLayout.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		4B2C5A8D27C0DA0B00435347 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4B2C5A8E27C0DA0B00435347 /* PersonCell.swift */,
+				4B2C5A8F27C0DA0B00435347 /* MosaicCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4B2C5A9227C0E25700435347 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B2C5AA527C253E000435347 /* KeychainItem.swift */,
+				4B2C5A9327C0E25700435347 /* Person.swift */,
+				4B2C5A9D27C15BA300435347 /* Experience.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B2C5A9527C0E26400435347 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				4B2C5A9627C0E26400435347 /* AvatarView.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		4B2C5A9827C0E47900435347 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4B2C5A9927C0E47900435347 /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4B3570F427D33C4E006C0FC9 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				4B3570F227D33C49006C0FC9 /* UserDefaultsCache.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		F386C9682E2668D293D0EC37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C26EA604A03352294210F7DF /* Pods-Three60Experiences.debug.xcconfig */,
+				91985ADA05AAF4B50F5446F3 /* Pods-Three60Experiences.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B2C5A7027C0A8B500435347 /* Three60Experiences */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B2C5A8527C0A8B800435347 /* Build configuration list for PBXNativeTarget "Three60Experiences" */;
+			buildPhases = (
+				BEF163B013F07B8AC79E6E40 /* [CP] Check Pods Manifest.lock */,
+				4B2C5A6D27C0A8B500435347 /* Sources */,
+				4B2C5A6E27C0A8B500435347 /* Frameworks */,
+				4B2C5A6F27C0A8B500435347 /* Resources */,
+				75DF6B2AC57E113F520FDFF4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Three60Experiences;
+			productName = Three60Experiences;
+			productReference = 4B2C5A7127C0A8B500435347 /* Three60Experiences.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B2C5A6927C0A8B500435347 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4B2C5A7027C0A8B500435347 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4B2C5A6C27C0A8B500435347 /* Build configuration list for PBXProject "Three60Experiences" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B2C5A6827C0A8B500435347;
+			productRefGroup = 4B2C5A7227C0A8B500435347 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B2C5A7027C0A8B500435347 /* Three60Experiences */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B2C5A6F27C0A8B500435347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B2C5A8127C0A8B800435347 /* LaunchScreen.storyboard in Resources */,
+				4B2C5A7E27C0A8B800435347 /* Assets.xcassets in Resources */,
+				4B2C5A7C27C0A8B500435347 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75DF6B2AC57E113F520FDFF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Three60Experiences/Pods-Three60Experiences-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Three60Experiences/Pods-Three60Experiences-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Three60Experiences/Pods-Three60Experiences-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEF163B013F07B8AC79E6E40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Three60Experiences-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B2C5A6D27C0A8B500435347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B801A7727CE8814000DC698 /* Common.swift in Sources */,
+				4B2C5A9C27C13C2200435347 /* DetailViewController.swift in Sources */,
+				4B2C5A9027C0DA0B00435347 /* PersonCell.swift in Sources */,
+				4B2C5A9127C0DA0B00435347 /* MosaicCell.swift in Sources */,
+				4B2C5A9E27C15BA300435347 /* Experience.swift in Sources */,
+				4B2C5A7927C0A8B500435347 /* TimelineViewController.swift in Sources */,
+				4B2C5A7527C0A8B500435347 /* AppDelegate.swift in Sources */,
+				4B3570F627D3D958006C0FC9 /* AvatarImageView.swift in Sources */,
+				4B3570F827D4AF15006C0FC9 /* RateCommentViewController.swift in Sources */,
+				4B2C5AA627C253E000435347 /* KeychainItem.swift in Sources */,
+				4B2C5A7727C0A8B500435347 /* SceneDelegate.swift in Sources */,
+				4B2C5A9427C0E25700435347 /* Person.swift in Sources */,
+				4B2C5A9727C0E26400435347 /* AvatarView.swift in Sources */,
+				4B3570F327D33C49006C0FC9 /* UserDefaultsCache.swift in Sources */,
+				4B801A7527CE7908000DC698 /* LoginViewController.swift in Sources */,
+				4B2C5A9A27C0E47900435347 /* Utilities.swift in Sources */,
+				4B2C5AA027C15BDE00435347 /* DataManager.swift in Sources */,
+				4B2C5A8B27C0D9FC00435347 /* MosaicLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B2C5A7A27C0A8B500435347 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B2C5A7B27C0A8B500435347 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B2C5A7F27C0A8B800435347 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B2C5A8027C0A8B800435347 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B2C5A8327C0A8B800435347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B2C5A8427C0A8B800435347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B2C5A8627C0A8B800435347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C26EA604A03352294210F7DF /* Pods-Three60Experiences.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Three60Experiences/Three60Experiences.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6739RFGN2C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Three60Experiences/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "360 Exp";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This application needs access to your photos for a simple display.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TriDo.Three60Experiences;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Three60ExperiencesProfile;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B2C5A8727C0A8B800435347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91985ADA05AAF4B50F5446F3 /* Pods-Three60Experiences.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Three60Experiences/Three60Experiences.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6739RFGN2C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Three60Experiences/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "360 Exp";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This application needs access to your photos for a simple display.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TriDo.Three60Experiences;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Three60ExperiencesProfile;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B2C5A6C27C0A8B500435347 /* Build configuration list for PBXProject "Three60Experiences" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B2C5A8327C0A8B800435347 /* Debug */,
+				4B2C5A8427C0A8B800435347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B2C5A8527C0A8B800435347 /* Build configuration list for PBXNativeTarget "Three60Experiences" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B2C5A8627C0A8B800435347 /* Debug */,
+				4B2C5A8727C0A8B800435347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B2C5A6927C0A8B500435347 /* Project object */;
+}
